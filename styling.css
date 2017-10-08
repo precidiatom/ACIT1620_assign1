@@ -1,0 +1,106 @@
+body{
+    background-image:url(gym.png);
+    background-size:cover;
+}
+
+.vertical{
+    width:85px;
+    height:645px;
+    position:fixed;
+    top:50px;
+    background-color: rgba(255,255,255,0.5);
+    border: black solid 1px;
+}
+
+.horizontal{
+    width:975px;
+    height:80px;
+    left:250px;
+    position:fixed;
+    background-color: rgba(255,255,255,0.5);
+    border: black solid 1px;
+}
+.conbutV{
+    width:100%;
+    height:70px;
+    position:static;
+    display:block;
+    padding:0.5px;
+}
+.conbutH{
+    width:10%;
+    height:70px;
+    display:inline-block;
+    position:static;
+    padding:0.5px;
+}
+#leftImg{
+    position:absolute;
+    left:100px;
+    top:200px;
+    width:250px;
+    height:250px;
+}
+#rightImg{
+    position:absolute;
+    right:100px;
+    top:200px;
+    width:250px;
+    height:250px;
+    
+}
+#topImg{
+    position:absolute;
+    left:380px;
+    top:85px;
+    width:250px;
+    height:250px;
+}
+#bottomImg{
+    position:absolute;
+    bottom:125px;
+    left:380px;
+    width:250px;
+    height:250px;
+}
+#topbar{
+    top:10px;
+}
+#bottombar{
+    bottom:30px;
+}
+
+#leftbar{
+    left:10px;
+    top:50px;
+}
+
+#rightbar{
+    right:10px;
+}
+
+.hide{
+    width:50px;
+    height:50px;
+    position:absolute;
+    border:solid 1px black;
+    background-color:azure;
+}
+#botAppear{
+    bottom:90px;
+}
+#botDppear{
+    bottom:90px;
+}
+
+.restartbutt{
+    position:absolute;
+    left:500px;
+    bottom:90px;
+    background-color:azure;
+    color:black;
+    border:solid 1px black;
+    padding:12px 28px;
+    border-radius: 8px;
+    font-family:"Verdana", sans-serif;
+}
